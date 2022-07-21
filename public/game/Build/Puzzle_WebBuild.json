@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Puzzle_Story1",
+"productVersion": "0.1",
+"dataUrl": "Puzzle_WebBuild.data.unityweb",
+"wasmCodeUrl": "Puzzle_WebBuild.wasm.code.unityweb",
+"wasmFrameworkUrl": "Puzzle_WebBuild.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.12f1"
+}

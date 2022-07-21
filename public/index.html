@@ -1,0 +1,66 @@
+
+<head>
+	<title>PiggyToken Games</title>
+</head>
+
+<style>
+	table, th, td {
+	  border: none;
+	}
+
+	table#ranking {
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+	table#ranking th, table#ranking td {
+	  text-align: left;
+	  padding: 8px;
+	}
+
+	table#ranking tr:nth-child(even){background-color: #f2f2f2}
+
+	table#ranking th {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+</style>
+
+<body onLoad="load()">
+<h1>Star Search</h1>
+	<table>
+		<tr>
+			<td>
+				<iframe src="./game/index.html" style="border: none; width: 960px; height: 540px"> </iframe>
+			</td>
+			<td style="vertical-align: top">
+				<table id="ranking">
+					<tr>
+						<th>Ranking</th>
+						<th>UserName</th>
+						<th>Score</th>
+						<th>Level</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>test</td>
+						<td>1000</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>admin</td>
+						<td>600</td>
+						<td>4</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<script>
+		function load() {
+			localStorage.setItem('user_email', 'matvei.test@email.com');
+		}
+	</script>
+</body>
